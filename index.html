@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search Films</title>
+	<link rel="stylesheet" type="text/css" href="taskcss.css">
+</head>
+<body>
+	<center>
+		<h1>Search Movie</h1>
+		
+		<input type="Search" placeholder="Enter Here..." name="nome" id="nome"/><br/>
+		<button id="mybnt">Search</button>
+
+	<p></p>
+
+<div id="myModal" class="modal">
+	<div class="modal-content">
+		<div class="modal-header">
+	      <span class="close">&times;</span>
+	      <center><h2>Details</h2></center>
+	    </div>
+   		<span class="close">&times;</span>
+		<table id="tabela" style="font-size: 18px">
+			<tr>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td>Title:</td>
+				<td id="title"></td>
+			<tr>
+				<td>Year:</td>
+				<td id="year"></td>
+			</tr>
+			<tr>
+				<td>genre:</td>
+				<td id="genre"></td>
+			</tr>
+			<tr>
+				<td>Run Time:</td>
+				<td id="time"></td>
+			</tr>	
+			<tr>
+				<td>Director:</td>
+				<td id="director"></td>
+			</tr>	
+			<tr>
+				<td>Actors:</td>
+				<td id="actors"></td>
+			</tr>
+			<tr>
+				<td>Writer:</td>
+				<td id="writer"></td>
+			</tr>	
+			<tr>
+				<td>Language:</td>
+				<td id="language"></td>
+			</tr>
+			<tr>
+				<td>Awards:</td>
+				<td id="awards"></td>
+			</tr>			
+			<tr>
+				<td>Plot: </td>
+				<td id="plot"></td>
+				</tr>
+		</table>
+		<p style="font-size: 18pt">Poster</p>
+		<img src="" width="300" height="333" id="poster">
+	</div>
+</div>
+
+</center>
+<script type="text/javascript" src="taskjs.js"></script>
+</body>
+</html>
